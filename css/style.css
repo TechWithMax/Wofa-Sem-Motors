@@ -384,6 +384,30 @@
     border-radius: 10px;
     background: var(--bs-secondary);
 }
+
+/**About Video**/
+.video-card {
+    display: flex;
+    align-items:center;
+    gap: 10px;
+    border-radius: 10px;
+    background-color: var(--bs-dark);
+    width: fit-content;
+}
+.video-card video {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+}
+.video-text {
+    width: 100%;
+    font-size: 18px;
+    text-align:center;
+}
+.video-text h1{
+    font-size: 60px;
+    text-align:center;
+}
 /*** About End ***/
 
 
